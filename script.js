@@ -29,8 +29,5 @@ btn.addEventListener("click", async () => {
 
     console.log(name);
 
-    await fetch(`https://mindful-braid-380816.el.r.appspot.com/insert/10/${name}`, {
-        method: "POST",
-        headers: { 'Content-Type': 'application/json' },
-    });
+    await fetch(`https://mindful-braid-380816.el.r.appspot.com/insert/10/${name}`);
 })
